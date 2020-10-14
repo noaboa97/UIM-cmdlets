@@ -2,13 +2,13 @@
     Param (
             [parameter(valuefrompipeline = $true, mandatory = $true, HelpMessage = "Enter Authorization", Position = 0)]
             [System.Collections.Hashtable]$Header,
-            [parameter(valuefrompipeline = $true, mandatory = $true, HelpMessage = "Enter Servername", Position = 1)]
+            [parameter(valuefrompipeline = $true, mandatory = $true, HelpMessage = "Enter UIMServer", Position = 1)]
             [string]$UIMServer,
-            [parameter(valuefrompipeline = $true, mandatory = $true, HelpMessage = "Enter Servername", Position = 1)]
+            [parameter(valuefrompipeline = $true, mandatory = $true, HelpMessage = "Enter Domain", Position = 2)]
             [string]$Domain,
-            [parameter(valuefrompipeline = $true, mandatory = $true, HelpMessage = "Enter Servername", Position = 1)]
+            [parameter(valuefrompipeline = $true, mandatory = $true, HelpMessage = "Enter Hub", Position = 3)]
             [string]$Hub,
-            [parameter(valuefrompipeline = $true, mandatory = $true, HelpMessage = "Enter Servername", Position = 1)]
+            [parameter(valuefrompipeline = $true, mandatory = $true, HelpMessage = "Enter Robot", Position = 4)]
             [string]$Robot
         )
     try{
