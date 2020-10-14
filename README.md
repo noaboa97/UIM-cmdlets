@@ -2,6 +2,7 @@
 PowerShell cmdlets to interact with CA UIM / DX Infrastructur API
 
 Tested with UIM 9.0.2
+
 API Version:
 ```
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
@@ -33,6 +34,8 @@ $Robots = Get-UIMRobots $auth "YourUIMServername"
 
 
 ## Get-RobotProbes
+
+Will get the probes of the specified robot
 ```
 Get-RobotProbes -Header $auth -UIMServer "YourUIMServername" -Domain "YourUIMDomain" -Hub "YourUIMHubName" -Robot "YourRobotname"
 ```
