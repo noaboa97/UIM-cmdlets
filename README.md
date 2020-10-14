@@ -31,6 +31,6 @@ $Robots = Get-UIMRobots $auth "YourUIMServername"
 
 
 ## Get-RobotProbes
-
+```
 Get-RobotProbes -Header $auth -UIMServer "YourUIMServername" -Domain "YourUIMDomain" -Hub "YourUIMHubName" -Robot "YourRobotname"
-
+```
